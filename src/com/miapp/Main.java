@@ -12,6 +12,7 @@ public class Main {
         // Crear objeto de la clase Persona
         Persona persona1 = new Persona("Javier", "Martos", 47, "Hombre");
         Persona persona2 = new Persona("Cesar", "Martos", 50, "Hombre");
+        Persona persona3 = new Persona("Pepita", "Martos", 52, "Hombre");
 
         /* Mostrar información de la persona
         persona.mostrarInformacion();
@@ -38,6 +39,12 @@ public class Main {
         int edad2 = persona2.getEdad();
         String sexo2 = persona2.getSexo();
 
+        // Usar los métodos get para acceder a los atributos del segundo objeto
+        String nombre3 = persona3.getNombre();
+        String apellidos3 = persona3.getApellidos();
+        int edad3 = persona3.getEdad();
+        String sexo3 = persona3.getSexo();
+
         // Mostrar los valores obtenidos del primer objeto
         System.out.println("Nombre: " + nombre1);
         System.out.println("Apellidos: " + apellidos1);
@@ -50,7 +57,11 @@ public class Main {
         System.out.println("Edad: " + edad2);
         System.out.println("Sexo: " + sexo2);
 
-
+        // Mostrar los valores obtenidos del tercer objeto
+        System.out.println("Nombre: " + nombre3);
+        System.out.println("Apellidos: " + apellidos3);
+        System.out.println("Edad: " + edad3);
+        System.out.println("Sexo: " + sexo3);
 
 
     }
