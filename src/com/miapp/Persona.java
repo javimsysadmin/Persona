@@ -4,7 +4,7 @@
 package com.miapp;
 /**
  * @author javier
- * @version V:01
+ * @version V:02
  */
 public class Persona {
     private String nombre;
@@ -53,10 +53,11 @@ public class Persona {
         this.sexo = sexo;
     }
 
-    public void mostrarInformacion(){
+    /*public void mostrarInformacion(){
         System.out.println("Nombre: "+ nombre);
         System.out.println("Apellidos: "+ apellidos);
         System.out.println("Edad: "+ edad);
         System.out.println("Sexo: "+ sexo);
     }
+     */
 }
