@@ -45,7 +45,10 @@ public class Persona {
     public void setSexo(String sexo) {
         this.sexo = sexo;
     }
-
+    /**
+    *Constructor de Persona
+    *@param atributos de Persona
+    */
     public Persona(String nombre, String apellidos, int edad, String sexo) {
         this.nombre = nombre;
         this.apellidos = apellidos;
